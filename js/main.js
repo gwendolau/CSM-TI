@@ -25,6 +25,10 @@ function changeSection(sectionNumber, clickedElement) {
             $("#menureseau").css("display","block");
             $("#head div").css("display","none");
             $("#headreseau").css("display","block");
+            $("#aproposreseau div").css("display","none");
+            $("#aproposreseau").css("display","block");
+            $("#testreseau div").css("display","none");
+            $("#testreseau").css("display","block");
             break;
             
         case 2:
