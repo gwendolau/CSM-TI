@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="js/kickstart.js"></script> <!-- KICKSTART -->
+        <script src="js/main.js"></script>
         <link rel="stylesheet" href="css/kickstart.css" media="all" > <!-- KICKSTART -->
         <link rel="stylesheet" href="css/index.css" media="all" >
         <title>CSM - TI</title>
@@ -15,22 +16,9 @@
         <div id="menu">
             <!-- Menu Horizontal -->
             <ul class="menu">
-                <li class="current"><a href="">Accueil</a></li>
-                <li><a href="">Réseau</a></li>
-                <li><a href=""><i class="icon-inbox"></i>Admin Sys</a>
-            	    <ul>
-	                    <li><a href=""><i class="icon-cog"></i> Sub Item</a></li>
-	                    <li><a href=""><i class="icon-envelope-alt"></i> Sub Item</a>
-                            <ul>
-                                <li><a href=""><i class="icon-wrench"></i> Sub Item</a></li>
-                                <li><a href=""><i class="icon-camera-retro"></i> Sub Item</a></li>
-                                <li><a href=""><i class="icon-coffee"></i> Sub Item</a></li>
-                                <li><a href=""><i class="icon-twitter"></i> Sub Item</a></li>
-                            </ul>
-	                   </li>
-	                    <li class="divider"><a href=""><i class="icon-trash"></i> li.divider</a></li>
-	                </ul>
-                </li>
+                <li class="current"><a onclick="changeSection(0, this)">Accueil</a></li>
+                <li><a onclick="changeSection(1, this)">Réseau</a></li>
+                <li><a onclick="changeSection(2, this)">Admin Sys</a></li>
                 <li><a href="">Suivis de problèmes</a></li>
                 <li><a href="">Wiki</a></li>
                 <li><a href="">Gestion de projet</a></li>
@@ -60,6 +48,21 @@
             </ul>
         </div>
         <div id="contenu">
+            <div id="conteneurAccueil">
+                <h1>Accueil</h1>
+                <h3>Sous-titre</h3>
+                <p>Paragraphe</p>
+            </div>
+            <div id="conteneurReseau">
+                <h1>Réseau</h1>
+                <h3>Sous-titre</h3>
+                <p>Paragraphe</p>
+            </div>
+            <div id="conteneurSysAdmin">
+                <h1>Sys Admin</h1>
+                <h3>Sous-titre</h3>
+                <p>Paragraphe</p>
+            </div>
         </div>
         <div id="footer">
         </div>
