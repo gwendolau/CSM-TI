@@ -29,75 +29,15 @@ li a{
     margin-right:12px;
 }
 
-#conteneurReseau{
+#conteneurReseau, #conteneurSysAdmin, #conteneurbugtracker, #conteneurwiki, #conteneurprojet, #conteneurparametre{
     display:none;
 }
 
-#conteneurSysAdmin{
+#menureseau, #menusysadmin, #menubugtracker, #menuwiki, #menuprojet, #menuparametre{
     display:none;
 }
 
-#conteneurbugtracker{
-    display:none;
-}
-
-#conteneurwiki{
-    display:none;
-}
-
-#conteneurprojet{
-    display:none;
-}
-
-#conteneurparametre{
-    display:none;
-}
-
-#menureseau{
-    display:none;
-}    
-
-#menusysadmin{
-    display:none;
-}
-
-#menubugtracker{
-    display:none;
-}
-
-#menuwiki{
-    display:none;
-}
-
-#menuprojet{
-    display:none;
-}
-
-#menuparametre{
-    display:none;
-}
-
-#headreseau{
-    display:none;
-}
-
-#headsysadmin{
-    display:none;
-}
-
-#headbugtracker{
-    display:none;
-}
-
-#headwiki{
-    display:none;
-}
-
-#headprojet{
-    display:none;
-}
-
-#headparametre{
+#headreseau, #headsysadmin, #headbugtracker, #headwiki, #headprojet, #headparametre{
     display:none;
 }
 
