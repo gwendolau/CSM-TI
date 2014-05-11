@@ -11,7 +11,27 @@
     </head>
     <body>
         <div id="head">
-            <h1>Accueil</h1>
+            <div id="headaccueil">
+                <h1>Accueil</h1>
+            </div>
+            <div id="headreseau">
+                <h1>Réseau</h1>
+            </div>
+            <div id="headsysadmin">
+                <h1>SysAdmin</h1>
+            </div>
+            <div id="headbugtracker">
+                <h1>Suivis de problème</h1>
+            </div>
+            <div id="headwiki">
+                <h1>Wiki</h1>
+            </div>
+            <div id="headprojet">
+                <h1>Gestion de projet</h1>
+            </div>
+            <div id="headparametre">
+                <h1>Paramètres</h1>
+            </div>
         </div>
         <div id="menu">
             <!-- Menu Horizontal -->
@@ -19,33 +39,72 @@
                 <li class="current"><a onclick="changeSection(0, this)">Accueil</a></li>
                 <li><a onclick="changeSection(1, this)">Réseau</a></li>
                 <li><a onclick="changeSection(2, this)">Admin Sys</a></li>
-                <li><a href="">Suivis de problèmes</a></li>
-                <li><a href="">Wiki</a></li>
-                <li><a href="">Gestion de projet</a></li>
-                <li><a href="">Paramètres</a></li>
+                <li><a onclick="changeSection(3, this)">Suivis de problèmes</a></li>
+                <li><a onclick="changeSection(4, this)">Wiki</a></li>
+                <li><a onclick="changeSection(5, this)">Gestion de projet</a></li>
+                <li><a onclick="changeSection(6, this)">Paramètres</a></li>
             </ul>
         </div>
         <div id="left-menu">
             <!-- Menu Vertical Left -->
-            <ul class="menu vertical">
-                <li class="current"><a href="">À propos</a></li>
-                <li><a href="">Connexion</a></li>
-                <li><a href="">Fonction 1</a>
-	                <ul>
-	                    <li><a href="">Sub-fonction 1</a></li>
-	                    <li><a href="">Sub-fonction 2</a>
-    		                <ul>
-		                        <li><a href="">Sub Item</a></li>
-		                        <li><a href="">Sub Item</a></li>
-		                        <li><a href="">Sub Item</a></li>
-		                        <li><a href="">Sub Item</a></li>
-		                    </ul>
-	                    </li>
-	                    <li><a href="">Sub-fonction 3</a></li>
-	                </ul>
-                </li>
-                <li><a href="">Fonction 2</a></li>
-            </ul>
+            <div id="menuaccueil">
+                <ul class="menu vertical">
+                    <li class="current"><a href="">À propos</a></li>
+                    <li><a href="">Connexion</a></li>
+                    <li><a href="">Fonction 1</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+            </div>
+            <div id="menureseau">
+                <ul class="menu vertical">
+                    <li class="current"><a href="">À propos</a></li>
+                    <li><a href="">Test ping</a></li>
+                    <li><a href="">NSLookup</a></li>
+                    <li><a href="">DHCP</a></li>
+                    <li><a href="">Partage réseau</a></li>
+                    <li><a href="">Gestion d'inventaire</a></li>
+                </ul>
+            </div>
+            <div id="menusysadmin">
+                <ul class="menu vertical">
+                    <li class="current"><a href="">À propos</a></li>
+                    <li><a href="">LDAP</a></li>
+                    <li><a href="">Statut Smart</a></li>
+                    <li><a href="">Fonction 2</a></li>
+                </ul>
+            </div>
+            <div id="menubugtracker">
+                <ul class="menu vertical">
+                    <li class="current"><a href="">À propos</a></li>
+                    <li><a href="">Fonction 1</a></li>
+                    <li><a href="">Fonction 2</a></li>
+                    <li><a href="">Fonction 3</a></li>
+                </ul>
+            </div>
+            <div id="menuwiki">
+                <ul class="menu vertical">
+                    <li class="current"><a href="">À propos</a></li>
+                    <li><a href="">Fonction 1</a></li>
+                    <li><a href="">Fonction 2</a></li>
+                    <li><a href="">Fonction 3</a></li>
+                </ul>
+            </div>
+            <div id="menuprojet">
+                <ul class="menu vertical">
+                    <li class="current"><a href="">À propos</a></li>
+                    <li><a href="">Fonction 1</a></li>
+                    <li><a href="">Fonction 2</a></li>
+                    <li><a href="">Fonction 3</a></li>
+                </ul>
+            </div>
+            <div id="menuparametre">
+                <ul class="menu vertical">
+                    <li class="current"><a href="">À propos</a></li>
+                    <li><a href="">Réglages</a></li>
+                    <li><a href="">Affichage</a></li>
+                    <li><a href="">Widget</a></li>
+                </ul>
+            </div>
         </div>
         <div id="contenu">
             <div id="conteneurAccueil">
@@ -60,6 +119,26 @@
             </div>
             <div id="conteneurSysAdmin">
                 <h1>Sys Admin</h1>
+                <h3>Sous-titre</h3>
+                <p>Paragraphe</p>
+            </div>
+            <div id="conteneurbugtracker">
+                <h1>Suivis de problèmes</h1>
+                <h3>Sous-titre</h3>
+                <p>Paragraphe</p>
+            </div>
+            <div id="conteneurwiki">
+                <h1>Wiki</h1>
+                <h3>Sous-titre</h3>
+                <p>Paragraphe</p>
+            </div>
+            <div id="conteneurprojet">
+                <h1>Gestion de projet</h1>
+                <h3>Sous-titre</h3>
+                <p>Paragraphe</p>
+            </div>
+            <div id="conteneurparametre">
+                <h1>Paramètres</h1>
                 <h3>Sous-titre</h3>
                 <p>Paragraphe</p>
             </div>

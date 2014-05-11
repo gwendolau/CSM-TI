@@ -37,6 +37,70 @@ li a{
     display:none;
 }
 
+#conteneurbugtracker{
+    display:none;
+}
+
+#conteneurwiki{
+    display:none;
+}
+
+#conteneurprojet{
+    display:none;
+}
+
+#conteneurparametre{
+    display:none;
+}
+
+#menureseau{
+    display:none;
+}    
+
+#menusysadmin{
+    display:none;
+}
+
+#menubugtracker{
+    display:none;
+}
+
+#menuwiki{
+    display:none;
+}
+
+#menuprojet{
+    display:none;
+}
+
+#menuparametre{
+    display:none;
+}
+
+#headreseau{
+    display:none;
+}
+
+#headsysadmin{
+    display:none;
+}
+
+#headbugtracker{
+    display:none;
+}
+
+#headwiki{
+    display:none;
+}
+
+#headprojet{
+    display:none;
+}
+
+#headparametre{
+    display:none;
+}
+
 .current a{
     background: #78d993 !important;
 }
