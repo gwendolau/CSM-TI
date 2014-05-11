@@ -11,6 +11,8 @@ function changeSection(sectionNumber, clickedElement) {
             $("#conteneurAccueil").css("display","block");
             $("#left-menu div").css("display","none");
             $("#menuaccueil").css("display","block");
+            $("#aproposaccueil div").css("display","none");
+            $("#aproposaccueil").css("display","block");
             $("#head div").css("display","none");
             $("#headaccueil").css("display","block");
             break;

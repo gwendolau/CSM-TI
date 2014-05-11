@@ -49,7 +49,7 @@
             <!-- Menu Vertical Left -->
             <div id="menuaccueil">
                 <ul class="menu vertical">
-                    <li class="current"><a href="">À propos</a></li>
+                    <li class="current"><a onclick="changeSection(0, this)">À propos</a></li>
                     <li><a href="">Connexion</a></li>
                     <li><a href="">Fonction 1</a></li>
                     <li><a href="">FAQ</a></li>
@@ -57,7 +57,7 @@
             </div>
             <div id="menureseau">
                 <ul class="menu vertical">
-                    <li class="current"><a href="">À propos</a></li>
+                    <li class="current"><a onclick="changeSection(1, this)">À propos</a></li>
                     <li><a href="">Test réseau</a></li>
                     <li><a href="">NSLookup</a></li>
                     <li><a href="">DHCP</a></li>
@@ -108,9 +108,11 @@
         </div>
         <div id="contenu">
             <div id="conteneurAccueil">
-                <h1>À propos</h1>
-                <h5>CSM - TI est un outil afin d'aider un TI ou SysAdmin d'effectuer ces tâches aisément.</h5>
-                <p>Cet outil est basé sur le framework HTML Kickstart.</p>
+                <div id="aproposaccueil">
+                    <h1>À propos</h1>
+                    <h5>CSM - TI est un outil afin d'aider un TI ou SysAdmin d'effectuer ces tâches aisément.</h5>
+                    <p>Cet outil est basé sur le framework HTML Kickstart.</p>
+                </div>
             </div>
             <div id="conteneurReseau">
                 <div id="aproposreseau">

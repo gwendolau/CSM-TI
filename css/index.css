@@ -45,7 +45,7 @@ li a{
     margin-right:12px;
 }
 
-#conteneurReseau, #aproposreseau, #testreseau #conteneurSysAdmin, #conteneurbugtracker, #conteneurwiki, #conteneurprojet, #conteneurparametre{
+#conteneurAccueil, #aproposaccueil, #conteneurReseau, #aproposreseau, #testreseau #conteneurSysAdmin, #conteneurbugtracker, #conteneurwiki, #conteneurprojet, #conteneurparametre{
     display:none;
 }
 
