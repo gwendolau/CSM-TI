@@ -2,27 +2,31 @@ html, body{
     font-family: Helvetica, Arial, sans-serif;
     height: 100%;
     width: 100%;
-    overflow:hidden;
+    /* overflow:hidden; */
 }
 
 html{
     background-color: white;
 }
 
-body{
+/* body{
     background-color: #E0FFFF;
     border-radius: 25px;
     margin-left: 10px;
     margin-top: 10px;
-}
+} */
 
 li a{
     cursor:pointer;
 }
 
 #head{
-    margin-left: 25px;
+    /* margin-left: 15px; */
     width: 1000px;
+}
+
+#head div{
+    display:none;
 }
 
 #left-menu{
@@ -33,11 +37,18 @@ li a{
     float:left;
 }
 
+#left-menu div{
+    display:none;
+}
+
 #contenu{
-    display:inline-block;
     width: 83%;
     height: 100%;
     float:left;
+}
+
+#contenu div{
+    display:none;
 }
 
 #conteneurContenu{
@@ -45,23 +56,18 @@ li a{
     margin-right:12px;
 }
 
-#conteneurAccueil, #aproposaccueil, #conteneurReseau, #aproposreseau, #testreseau #conteneurSysAdmin, #conteneurbugtracker, #conteneurwiki, #conteneurprojet, #conteneurparametre{
-    display:none;
+.contenuCache{
+    /* display:none !important; */
 }
 
-#menureseau, #menusysadmin, #menubugtracker, #menuwiki, #menuprojet, #menuparametre{
-    display:none;
-}
-
-#headreseau, #headsysadmin, #headbugtracker, #headwiki, #headprojet, #headparametre{
-    display:none;
+.contenuVisible{
+    display:block !important;
 }
 
 #footer{
     width: 100%;
     height: 16%;
-    display: block, inherit;
-    margin-top: 100%;
+    clear:both;
 }
 
 #footer span{
@@ -74,5 +80,17 @@ li a{
 
 .menu{
     border-radius:5px 5px 0px 0px;
-    width:99%;
+    width:98.8%;
+}
+
+.headActive{
+    display:block !important;
+}
+
+.leftMenuActive{
+    display:block !important;
+}
+
+.contentActive{
+    display:inline-block !important;
 }
