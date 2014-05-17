@@ -58,8 +58,8 @@
             </div>
             <div id="leftMenuReseau">
                 <ul class="menu vertical">
-                    <li class="current"><a>À propos</a></li>
-                    <li><a onclick="changeContent(0)">Test réseau</a></li>
+                    <li class="current"><a onclick="changeContent('dhcp', this)">À propos</a></li>
+                    <li><a onclick="changeContent('dhcp', this)">Test réseau</a></li>
                     <li><a onclick="changeContent(1)">NSLookup</a></li>
                     <li><a onclick="changeContent(2)">DHCP</a></li>
                     <li><a onclick="changeContent(3)">Partage réseau</a></li>
@@ -116,17 +116,17 @@
                 </div>
             </div>
             <div id="conteneurReseau">
-                <div id="aproposreseau" class="contenuVisible">
+                <div id="aboutNetwork" class="contenuVisible">
                     <h1>Réseau</h1>
                     <h3>Sous-titre</h3>
                     <p>Paragraphe</p>
                 </div>
-                <div id="testreseau" class="contenuCache">
+                <div id="networkTests">
                     <h1>Test Réseau</h1>
                     <h3>Sous-titre</h3>
                     <p>Paragraphe</p>
                 </div>
-                <div id="dhcp" class="contenuCache">
+                <div id="dhcp">
                     <h1>DHCP</h1>
                     <h3>Sous-titre</h3>
                     <p>Paragraphe</p>

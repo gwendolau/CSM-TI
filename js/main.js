@@ -1,3 +1,6 @@
+/*jslint devel: true, eqeq: true, plusplus: true, vars: true, white: true */
+/*global $*/
+
 /****************************************************
 *   @function changeSection                         *
 *   @param sectionName - STRING                     *
@@ -32,6 +35,10 @@ function changeSection(sectionName, clickedElement) {
     
 }
 
-$(document).ready(function () {
-    console.log($("#conteneurAccueil").html())
-});
+
+
+function changeContent(contentName, clickedElement) {
+    "use strict";
+    
+    
+}
